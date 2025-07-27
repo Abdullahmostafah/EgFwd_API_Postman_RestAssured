@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Trello API Test Suite">
+    <test name="Organization Tests">
+        <classes>
+            <class name="Tests.OrganizationTests"/>
+        </classes>
+    </test>
+    <test name="Board Tests">
+        <classes>
+            <class name="Tests.BoardTests"/>
+        </classes>
+    </test>
+    <test name="List Tests">
+        <classes>
+            <class name="Tests.ListTests"/>
+        </classes>
+    </test>
+</suite>
